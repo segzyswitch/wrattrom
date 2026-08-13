@@ -5,3 +5,4 @@ error_log
 /api/classes/error_log
 /admin/error_log
 /admin/config/error_log
+/app
