@@ -10,7 +10,7 @@ class DB {
       // $pass = '';
       $dbname = 'wrattrom_main';
       $user = 'wrattrom_main';
-      $pass = 'Primestar1%';
+      $pass = 'Primestar1$';
 
       self::$conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
       self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

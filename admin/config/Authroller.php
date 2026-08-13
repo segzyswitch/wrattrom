@@ -4,7 +4,7 @@ class Authroller
 {  /* online server */
    private $db_server = 'localhost';
     private $db_username = 'wrattrom_main';
-    private $db_password = 'Primestar1%';
+    private $db_password = 'Primestar1$';
     private $db_name = 'wrattrom_main';
 
   /* local server */
