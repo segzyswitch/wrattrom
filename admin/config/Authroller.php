@@ -2,16 +2,15 @@
 
 class Authroller
 {  /* online server */
-  //  private $db_server = 'localhost';
-  //   private $db_username = 'cratobyt_main';
-  //   private $db_password = 'Primestar1%';
-  //   private $db_name = 'cratobyt_main';
+   private $db_server = 'localhost';
+    private $db_username = 'wrattrom_main';
+    private $db_password = 'Primestar1%';
+    private $db_name = 'wrattrom_main';
 
   /* local server */
-  private $db_server = 'localhost';
-  private $db_username = 'root';
-  private $db_password = '';
-  private $db_name = 'wrattrom';
+  // private $db_username = 'root';
+  // private $db_password = '';
+  // private $db_name = 'cratobyte';
   
   // DB Connection
   public $conn;
