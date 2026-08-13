@@ -1,0 +1,7 @@
+error_log
+/api/error_log
+/api/config/error_log
+/api/routes/error_log
+/api/classes/error_log
+/admin/error_log
+/admin/config/error_log
