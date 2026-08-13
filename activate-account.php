@@ -114,25 +114,22 @@ try {
 	</div>
 </div>
 
+
+	<!-- Smartsupp Live Chat script -->
+	<script type="text/javascript">
+		var _smartsupp = _smartsupp || {};
+		_smartsupp.key = '1100fe6df352180a8d264cdba5164a5c05937691';
+		window.smartsupp || (function (d) {
+			var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+			s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+			c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+			c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+		})(document);
+	</script>
+	<noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
-<!-- CHATWOOT -->
-<script>
-	(function(d,t) {
-		var BASE_URL="https://app.chatwoot.com";
-		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-		g.src=BASE_URL+"/packs/js/sdk.js";
-		g.async = true;
-		s.parentNode.insertBefore(g,s);
-		g.onload=function(){
-			window.chatwootSDK.run({
-				websiteToken: 'SWZh4kDwZJd9ks5JZN2pPLwv',
-				baseUrl: BASE_URL
-			})
-		}
-	})(document,"script");
-</script>
 
 </html>
