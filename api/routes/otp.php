@@ -35,7 +35,7 @@ $message = "<!DOCTYPE html>
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>Your One time Password - CratoByte</title>
+  <title>Your One time Password - Wrattrom Wallet</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     body {
@@ -84,13 +84,13 @@ $message = "<!DOCTYPE html>
   <div class='mail-footer'>
     <p>For security reasons, this link will expire in 24 hours. If you did notrequest for this, please ignore this email.</p>
     <p>If you have any questions or need help, feel free to contact our support team at support@wrattrom.com</p>
-    <p>© 2024 CratoByte!</p>
+    <p>© 2024 Wrattrom Wallet!</p>
   </div>
 </div>
 </body>
 </html>
 ";
-$subject = "Your One time Password - CratoByte";
+$subject = "Your One time Password - Wrattrom Wallet";
 $headers = "From: Wrattrom <noreply@wrattrom.com>\r\n";
 $headers .= "Reply-To: Wrattrom <support@wrattrom.com>\r\n";
 $headers .= "Return-Path: noreply@wrattrom.com\r\n";

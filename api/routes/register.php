@@ -43,7 +43,7 @@ $message = "<!DOCTYPE html>
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>Activate Your Account - CratoByte</title>
+  <title>Activate Your Account - Wrattrom Wallet</title>
   <style>
     body {
       margin: 0;
@@ -86,12 +86,12 @@ $message = "<!DOCTYPE html>
   <div class='mail-body'>
     <p style='text-align:center;'><img src='https://wrattrom.com/logo.png' height='35' style='height:35px;' /></p>
     <h3>Hello, ".$name."</h3>
-    <p>Welcome to CratoByte wallet! We're excited to have you on board.</p>
+    <p>Welcome to Wrattrom Wallet wallet! We're excited to have you on board.</p>
     <p style='color:#fff;'>To activate your account, please confirm your email address by clicking the link below:</p>
     <p><a href='https://wrattrom.com/activate-account?uuid=".$createdUser['wallet_id']."' class='confirm-button'>Confirm Account</a></p>
     <p style='color:#fff;'>If the button above doesn’t work, please copy and paste the following link into your browser:</p>
     <p><a href='https://wrattrom.com/activate-account?uuid=".$createdUser['wallet_id']."'>https://wrattrom.com/activate-account?uuid=".$createdUser['wallet_id']."</a></p>
-    <p style='color:#fff;'>Thank you for choosing CratoByte wallet!</p>
+    <p style='color:#fff;'>Thank you for choosing Wrattrom Wallet wallet!</p>
   </div>
   <div class='mail-footer'>
     <p>For security reasons, this link will expire in 24 hours. If you did not sign up for an account with us, please ignore this email.</p>
@@ -103,15 +103,15 @@ $message = "<!DOCTYPE html>
       <a href='https://wrattrom.com/terms-conditions'>Terms & Conditions</a>
       <a href='https://wrattrom.com/contact'>Contact</a>
     </p>
-    <p>© 2024 CratoByte!</p>
+    <p>© 2024 Wrattrom Wallet!</p>
   </div>
 </div>
 </body>
 </html>
 ";
-$subject = "Activate Your Account - CratoByte";
-$headers = "From: CratoByte <info@wrattrom.com>\r\n";
-$headers .= "Reply-To: CratoByte <support@wrattrom.com>\r\n";
+$subject = "Activate Your Account - Wrattrom Wallet";
+$headers = "From: Wrattrom Wallet <info@wrattrom.com>\r\n";
+$headers .= "Reply-To: Wrattrom Wallet <support@wrattrom.com>\r\n";
 $headers .= "Return-Path: support@wrattrom.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";

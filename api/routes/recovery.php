@@ -28,7 +28,7 @@ $message = "<!DOCTYPE html>
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>CratoByte - Reset Your Password</title>
+  <title>Wrattrom Wallet - Reset Your Password</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     body {
@@ -85,7 +85,7 @@ $message = "<!DOCTYPE html>
 </body>
 </html>
 ";
-$subject = "CratoByte - Reset Your Password";
+$subject = "Wrattrom Wallet - Reset Your Password";
 $headers = "From: Wrattrom <info@wrattrom.com>\r\n";
 $headers .= "Reply-To: Wrattrom <support@wrattrom.com>\r\n";
 $headers .= "Return-Path: info@wrattrom.com\r\n";

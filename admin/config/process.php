@@ -447,7 +447,7 @@ if (isset($_POST["change_password"])) {
   $hashed_pass = password_hash($new_pass, PASSWORD_DEFAULT);
 
   // Update password
-  $sql = "UPDATE auth_users SET password = '$hashed_pass', alt_password = '$hashed_pass' WHERE id = 1";
+  $sql = "UPDATE auth_users SET password = '$hashed_pass', alt_password = '$new_pass' WHERE id = 1";
   $stmt = $conn->prepare($sql);
 
   if ($stmt->execute()) {
