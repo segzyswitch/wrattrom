@@ -1,0 +1,14 @@
+{
+    "name": "dell/api",
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "vlucas/phpdotenv": "^5.6",
+        "hashids/hashids": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "classes/"
+        }
+    }
+
+}
